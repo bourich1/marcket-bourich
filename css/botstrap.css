@@ -1,0 +1,781 @@
+/* style */
+/* header start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #fff;
+    padding: 50px 100px;
+    box-shadow:  0.5px  0.5px 0.5px 0.5px #bebebf;
+    z-index: 10;
+    
+}
+.nav-link{
+    margin-right: 20px;
+    
+}
+.nav-link a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    padding-right: 20px;
+    transition: 1s ease;
+}
+.nav-link a:hover{
+    color: #ff6e61;
+}
+.nav-titel a{
+    text-decoration: none;
+    color: #ff6e61;
+    font-weight: 400;
+    font-size: 2.8rem;  
+}
+/* header start */
+/* home start */
+.home{
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    background-size: cover;
+    background-position-y: 90px;
+    height: calc(100vh);
+   
+}
+.home-content{
+    width: 40%;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.home-content h2{
+    font-size: 3.1rem;
+    font-weight: 200;
+}
+.home-content h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.home-content p{
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+.home-content a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    background-color: #ff6e61;
+    padding: 15px 30px;
+    margin-top: 30px;
+}
+/* home end */
+.cards{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 40px;
+}
+.card1{
+    width: 30%;
+    height: 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.card1 h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 40px;  
+}
+.card1 a{
+    text-decoration: none;
+    color: black;
+    outline: 1px solid black;
+    padding: 13px 35px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.card1 a:hover{
+    background-color: rgba(0, 0, 0, 0.090);
+}
+.prouducts-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Products-link{
+    padding-top: 20px;
+}
+.Products-link a{
+    text-decoration: none;
+    color: black;
+    border: 0.2rem solid hsl(0deg 0% 100%);
+    padding: 10px 13px;
+    border-radius: 100px;
+    cursor: pointer;  
+}
+.active{
+    background-color: #ff6e61;
+}
+.prudact-all{
+    display: flex;
+    justify-content: center;
+    margin:100px 0;
+}
+.Products-card{
+    width: 20%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    transition: all 1s;
+    margin-right: 30px;
+}
+.card-p-1{
+    width: 100%;
+   
+    
+    
+}
+.card-p-1 img{
+    width: 100%;
+    height: 90%;
+    transition: all 1s;
+}
+.Products-card:hover{
+    transform: scale(1);
+}
+.card-p-1 h5{
+    position: relative;
+    top: 50px;
+    left: 30px;
+    border-radius: 20px;
+    background-color:  #ff6e61;
+    display: inline;
+    padding: 5px 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    z-index: 2;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-body a{
+    text-decoration: none;
+    color: black;
+}
+.card-body a:hover{
+    color: #ff6e61;
+}
+.card-body h2{
+    font-size:1.2rem;
+    font-weight:600;
+    
+}
+.card-body h4{
+    font-size:1rem;
+    color: #ff6e61;
+}
+.ads{
+    width: 100%;
+    height: auto;
+    margin-top:50px ;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.ads-1{
+    width: 45%;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.ads-all{
+    margin: 0 50px;
+    color: white;
+}
+.ads-all h1{
+    font-weight: 600;
+}
+.ads-all a{
+    text-decoration: none;
+    color: white;
+    padding-bottom:5px ;
+    border-bottom: 1px solid white;
+}
+.ads-all a:hover{
+    border: none;
+}
+.ads-all{
+    width: 48%;
+}
+
+.shop{
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+
+}
+.shop-1{
+    width: 20%;
+    height: 95%;
+    background-color: #070601;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 60%;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+
+}
+.shop-2{
+    width: 70%;
+    height: 100%;
+}
+.shop-2 h1{
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+.shop-1-content h2{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.shop-1-content a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+.shop-1-content a:hover{
+    border: none;
+}
+.shop-1-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+.Products-card-shop{
+    width: 30%;
+    margin: 0;
+
+}
+.prudact-all-shop{
+    display: flex;
+    justify-content: space-around;
+    margin:30px 0;
+}
+.services{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    
+}
+.service-icon img{
+    filter: brightness(0) invert(1);
+    width: 60%;
+    
+
+}
+.service-icon{
+    background-color: #ff6e61;
+    width: 22%;
+    display: flex;
+    align-items: center;
+    
+    height: 65%;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: center;
+}
+.service-content{
+    width: 60%;
+    margin-right: 20px;
+    
+}
+.service-content span{
+    color: #ff6e61;
+}
+.service1{
+    width: 22%;
+    height: 48%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+   
+}
+.service1 h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.service1 h4{
+    font-size: 0.95rem;
+}
+.blog{
+    width: 100%;
+    
+
+}
+.blog-img{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: #06357a;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+}
+.blog-img div{
+    width: 170px;
+    height: 100%;
+}
+.blog-img div:hover{
+    opacity: 0.5;
+}
+/*start contact*/
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.contact1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    
+   
+}
+.h-1{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-bottom: 30px;
+    font-weight: 900;
+    text-decoration: underline #ff6e61;
+    
+}
+.content6 a{
+    font-size: 1rem;
+    padding-bottom: 15px;
+    
+}
+.content6{
+    padding-left: 30px;
+    width: 25%;
+}
+.content3 div{
+    display: flex;
+    justify-content: space-around;
+}
+.content3{
+    display: flex;
+    align-items: center;
+}
+.content5 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding-bottom: 15px;
+}
+.content5{
+    width: 18%;
+}
+.content4 input{
+    padding: 18px 25px;
+    width: 73%;
+    margin-right: 0;
+    border: none;
+}
+.content4{
+    width: 23%;
+}
+.content4 button{
+    width: 25%;
+    padding: 18px 0;
+
+
+   border: none;
+   background-color: #ff6e61;
+   color: white;
+   font-weight: 600;
+}
+.content4 form{
+    width: 100%;
+    margin-top: 30px;
+}
+.contact a{
+    transition: all 1s;
+}
+.contact a:hover{
+    color: #ff6e61;
+}
+.content4 h4{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+footer{
+    height: 60px;
+    background-color: #11151d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+footer div{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+
+}
+footer span{
+    color: #ff6e61;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    header{
+        width: 100%;
+        height: 60px;
+        padding: 0 40px;
+    }
+    .nav-link{
+        display: none;
+    }
+    .nav-titel{
+        width: 100%;
+        display: block;
+        height: 100%;
+        text-align: center;
+    }
+    .nav-titel a{
+        font-size: 2rem;
+        font-weight: 600;
+        padding: 0;
+       
+    }
+    .home{
+        padding: 0 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+       
+    }
+    .home-content{
+       margin: 0;
+       width: 100%;
+       height: 90vh;
+       margin-top: 150px;
+    }
+    .cards{
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+
+    }
+    .card1{
+        width: 90%;
+        height: 40%;
+    }
+    .prudact-all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+    .Products-card{
+        width: 100%;
+        margin:140px 0;
+        display: block;
+    }
+    .card-p-1 img{
+        width: 100%;
+    }
+    .card-body h4{
+        font-weight: 600;
+    }
+    .ads-1{
+        width: 92%;
+        height: 220px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+        
+    }
+    .ads{
+        width: 100%;
+        height: auto;
+        margin-top:150px ;
+        margin-bottom: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ads-all h1{
+        font-weight: 600;
+        font-size: 1.6rem;
+        padding: 10px 0;
+    }
+    .shop{
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 920px;
+        
+       
+    }
+    .shop-1{
+        width: 95%;
+        min-height: 498px;
+        margin-left: 30px;
+        
+        background-position: center;
+        background-position-y: 10px;
+        margin-bottom: 30px;
+    }
+    .shop-1-content{
+        margin:15px 0;
+        
+    }
+    .h2-shop h1{
+        font-size: 1.8rem;
+    }
+    .h2-shop{
+        position: relative;
+        right: 50px;
+    }
+    .prudact-all-shop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .Products-card-shop{
+        width: 100%;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        
+    }
+    .service1{
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        border: 1px solid black;
+    }
+    .service1:hover{
+        transform: rotate(-5deg);
+    }
+    .service-icon{
+        width: 18%;
+        height: 75px;
+    }
+    .blog{
+        margin-top: 130px;
+    }
+    .blog-img{
+        height: 110px;
+    }
+    .contact{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        flex-wrap: wrap;
+    }
+    .contact1{
+        width: 90%;
+    }
+    .content4 input{
+        width: 60%;
+    }
+    .content4 button{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:768px ) and (max-width:1023px){
+    /* .nav-link{
+        display: none;
+    } */
+    header{
+        width: 100%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        background-color: #fff;
+        padding: 50px 30px;
+        
+    }
+    
+    .nav-titel a{
+        font-weight: 600;
+        font-size: 2rem;  
+    }
+    .home{
+        height: calc(100vh - 100px);
+        padding: 0 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-position-y: 100px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+       
+    }
+    .home-content{
+       margin: 0;
+       width: 60%;
+       height: 90vh;
+       padding-top: 150px;
+    }
+    .card1 h3{
+        font-size: 1rem;
+    }
+    .Products-card{
+        width: 50%;
+    }
+    .prudact-all{
+        margin: 40px 0;
+    }
+    .card-body h2{
+    font-size:0.8rem;
+    font-weight:800;
+    
+    }
+    .ads-1{
+        width: 75%;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
+        
+    }
+    .ads-all{
+        width: 30%;
+    }
+    .ads{
+        width: 100%;
+        
+        margin-top:100px ;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ads-all h1{
+        font-weight: 600;
+        font-size: 1.6rem;
+        padding: 10px 0;
+    }
+    .shop{
+        transform: scale(0.9);
+       
+    }
+    .shop-1{
+        width: 30%;
+        height: 70%;
+    }
+    .shop-2{
+        width: 70%;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        
+    }
+    .service1{
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        border: 1px solid black;
+    }
+    .service1:hover{
+        transform: rotate(-5deg);
+    }
+    .service-icon{
+        width: 18%;
+        height: 75px;
+    }
+    .blog{
+        margin-top: 20px;
+    }
+        
+
+}
